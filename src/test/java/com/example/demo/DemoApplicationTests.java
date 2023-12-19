@@ -29,7 +29,7 @@ class DemoApplicationTests {
     }
 
     @Test
-    public void sample() {
+    void sample() {
         this.webTestClient.get()
                 .uri("/")
                 .exchange()
